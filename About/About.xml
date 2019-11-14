@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Reorderer</name>
+  <author>Jaxe</author>
+  <supportedVersions>
+    <li>1.0</li>
+  </supportedVersions>
+  <description>Ever wanted to rearrange the main button tabs at the bottom of the screen? How about architect categories?\n\nThis mod allows reordering those and even hiding main button tabs, including any added by other mods.\n\nIt should be 100% compatible with any mod, does not affect savegames in any way and removing this mod would reset orders back to default.</description>
+</ModMetaData>

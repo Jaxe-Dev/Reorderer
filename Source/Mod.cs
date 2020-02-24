@@ -1,4 +1,4 @@
-﻿using Harmony;
+using HarmonyLib;
 using UnityEngine;
 using Verse;
 
@@ -8,7 +8,7 @@ namespace Reorderer
     {
         public const string Id = "Reorderer";
         public const string Name = "Reorderer";
-        public const string Version = "1.2";
+        public const string Version = "1.3";
 
         public static Mod Instance { get; private set; }
 
@@ -16,7 +16,7 @@ namespace Reorderer
         {
             Instance = this;
 
-            HarmonyInstance.Create(Id).PatchAll();
+            new Harmony(Id).PatchAll();
             Log("Initialized");
         }
 

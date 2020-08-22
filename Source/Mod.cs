@@ -8,7 +8,7 @@ namespace Reorderer
     {
         public const string Id = "Reorderer";
         public const string Name = "Reorderer";
-        public const string Version = "1.3";
+        public const string Version = "1.4";
 
         public static Mod Instance { get; private set; }
 

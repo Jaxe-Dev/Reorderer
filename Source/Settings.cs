@@ -23,7 +23,7 @@ namespace Reorderer
 
             _instance = Reorderer.Mod.Instance.GetSettings<Settings>();
 
-            MainButtonStates = MainButtonStates?.Where(state => (state.Def != null) && state.Def.buttonVisible).ToList();
+            MainButtonStates = MainButtonStates?.Where(state => state.Def != null && state.Def.buttonVisible).ToList();
             DesignationCategoryStates = DesignationCategoryStates?.Where(state => state.Def != null).ToList();
             Save();
         }
@@ -39,8 +39,8 @@ namespace Reorderer
 
             if (MainButtonsConfig.IsReady)
             {
-                if (typeListing.RadioButton("Reorderer.MainButtons".Translate(), _typeSelected == 0)) { _typeSelected = 0; }
-                if (typeListing.RadioButton("Reorderer.DesignationCategories".Translate(), _typeSelected == 1)) { _typeSelected = 1; }
+                if (typeListing.RadioButton_NewTemp("Reorderer.MainButtons".Translate(), _typeSelected == 0)) { _typeSelected = 0; }
+                if (typeListing.RadioButton_NewTemp("Reorderer.DesignationCategories".Translate(), _typeSelected == 1)) { _typeSelected = 1; }
             }
             else { typeListing.Label("Reorderer.NotReady".Translate()); }
 

@@ -1,5 +1,5 @@
 # Reorderer
-![](https://img.shields.io/badge/Mod_Version-1.4.1-blue.svg)
+![](https://img.shields.io/badge/Mod_Version-1.5-blue.svg)
 ![](https://img.shields.io/badge/Built_for_RimWorld-1.3-blue.svg)
 ![](https://img.shields.io/badge/Powered_by_Harmony-2.x-blue.svg)
 

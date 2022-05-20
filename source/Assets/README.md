@@ -1,7 +1,7 @@
 # Reorderer
-![](https://img.shields.io/badge/Mod_Version-1.5-blue.svg)
-![](https://img.shields.io/badge/Built_for_RimWorld-1.3-blue.svg)
-![](https://img.shields.io/badge/Powered_by_Harmony-2.2-blue.svg)
+![](https://img.shields.io/badge/Mod_Version-{ReleaseVersion}-blue.svg)
+![](https://img.shields.io/badge/Built_for_RimWorld-{GameVersion}-blue.svg)
+![](https://img.shields.io/badge/Powered_by_Harmony-{HarmonyVersion}-blue.svg)
 
 ![Steam Subscribers](https://img.shields.io/badge/dynamic/xml.svg?label=Steam+Subscribers&query=//table/tr[2]/td[1]&colorB=blue&url=https://steamcommunity.com/sharedfiles/filedetails/%3Fid=1907019753&suffix=+total)
 ![GitHub Downloads](https://img.shields.io/github/downloads/Jaxe-Dev/Reorderer/total.svg?colorB=blue&label=GitHub+Downloads)
